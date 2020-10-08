@@ -1,0 +1,9 @@
+--Creating nfl team name			
+	
+  CREATE TABLE nfl_team_name(		
+		team_id SERIAL PRIMARY KEY,	
+		team_name_short VARCHAR(3) NOT NULL,	
+		team_name_city VARCHAR(40) NOT NULL,	
+		team_name VARCHAR(30) NOT NULL	
+	);		
+			
